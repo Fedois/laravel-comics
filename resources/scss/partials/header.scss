@@ -27,12 +27,13 @@ header{
 
                     > a{
                         margin: 0 10px;
+                        display: inline-block;
                         text-decoration: none;
                         color: rgb(54, 54, 54);
                         text-transform: uppercase;
                         font-weight: bold;
 
-                        &.active{
+                        &:hover{
                             color: rgb(0, 128, 255);
                         }
                     }
