@@ -10,26 +10,26 @@
                     </li>
                     <li>
                         <a href="#">
-                            <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="">
-                            characters
+                            <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt="">
+                            dc merchandise
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="">
-                            characters
+                            <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt="">
+                            subscription
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="special-icon" >
+                            <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}" alt="">
+                            comic shop locator
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="">
-                            characters
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="">
-                            characters
+                            <img src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg') }}" alt="">
+                            dc power visa
                         </a>
                     </li>
                 </ul>
@@ -164,7 +164,7 @@
                     <ul class="list-social">
                         <li>
                             <a href="#">
-                                <img :src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="">
+                                <img :src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="">
                             </a> 
                         </li>
                         <li>
