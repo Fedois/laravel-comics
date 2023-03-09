@@ -13,12 +13,14 @@
         <div class="my-cards">
             <div class="container-fluid text-center">
                 <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
+                    
                     @foreach($comics as $comic)
                     <div class="col">
                         <img src="{{ $comic['thumb'] }}" alt="comic">
                         <div class="p-3">{{ $comic['series'] }}</div>
                     </div>
                     @endforeach
+                    
                 </div>
             </div>
         </div>
