@@ -7,7 +7,7 @@
         <img src="{{Vite::asset('resources/img/jumbotron.jpg')}}" alt="">      
     </div>
 
-    <div class="container">
+    <div class="container pt-3">
         <h1>CURRENT SERIES</h1>
 
         <div class="my-cards">
@@ -16,7 +16,7 @@
                     
                     @foreach($comics as $comic)
                     <div class="col">
-                        <img src="{{ $comic['thumb'] }}" alt="comic">
+                        <img src="{{ vite::asset('resources/img/adv.jpg') }}" alt="comic">
                         <div class="p-3">{{ $comic['series'] }}</div>
                     </div>
                     @endforeach
