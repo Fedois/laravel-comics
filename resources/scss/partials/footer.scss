@@ -37,35 +37,36 @@
     background-size: cover;
     height: 400px;
     overflow: hidden;
-}
-.container{
-    display: flex;
 
-    .list-container{
+    .container{
         display: flex;
-        color: white;
-        width: 50%;
 
-        > div{
-            margin-right: 30px;
+        .list-container{
+            display: flex;
+            color: white;
+            width: 50%;
 
-            h3{
-                margin: 15px 0;
-            }
-            a{
-                color: rgb(173, 168, 168);
-                text-transform: capitalize;
+            > div{
+                margin-right: 30px;
+
+                h3{
+                    margin: 15px 0;
+                }
+                a{
+                    color: rgb(173, 168, 168);
+                    text-transform: capitalize;
+                }
             }
         }
-    }
-    .big-logo{
-        width: 50%;
-        position: relative;
+        .big-logo{
+            width: 50%;
+            position: relative;
 
-        > img{
-            position: absolute;
-            top: -100px;
-            left: 0;
+            > img{
+                position: absolute;
+                top: -100px;
+                left: 0;
+            }
         }
     }
 }

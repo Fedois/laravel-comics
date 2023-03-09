@@ -10,7 +10,7 @@
                         <a href="#">characters</a>
                     </li>
                     <li>
-                        <a href="#">comics</a>
+                        <a href="/comics">comics</a>
                     </li>
                     <li>
                         <a href="#">movies</a>
